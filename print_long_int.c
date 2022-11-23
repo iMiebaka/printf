@@ -13,7 +13,7 @@ int prinlint(va_list arguments, char *buf, unsigned int ibuf)
 	long int int_input;
 	unsigned long int int_in, int_temp, i, div, isneg;
 
-	int_input = va_arg(argument, long int);
+	int_input = va_arg(arguments, long int);
 	isneg = 0;
 	if (int_input < 0)
 	{
